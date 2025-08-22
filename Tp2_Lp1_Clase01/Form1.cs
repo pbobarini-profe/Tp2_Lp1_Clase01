@@ -83,7 +83,7 @@ namespace Tp2_Lp1_Clase01
 
         private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (resultadoAEnviar != null)
+            if (resultadoAEnviar != 0)
             {
                 Form2 form2 = new Form2(resultadoAEnviar);
                 form2.Show();
